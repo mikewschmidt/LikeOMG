@@ -1,0 +1,259 @@
+.testBox {
+	background-color: lightgrey;
+    border:1px solid #8d8d8d;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.jumbotron {
+	background: #000 url('../img/concert-with-purple-lights.jpg') center center;
+	background-position: 0px -50px;
+	background-color: black;
+	width: 100%;
+	min-height: 400px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.myCenterBlock {
+	text-align: center;
+    padding: 1em 3em 1em 3em;
+
+}
+
+.myTagBlock{
+	max-width: 400px;
+	position: relative;
+	width: 100%;
+	margin: 0.9em;
+	padding 1em;
+	min-height: 15em;
+	background-color: #428bca;
+	color: #fff;
+	border-radius: .7em;
+
+	
+
+/*    float:left; 
+
+
+	max-width: 400px;
+	position: relative;
+    margin: 30px 0 0px 10px;
+    
+    padding:1em ;
+ 
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+ 
+    text-shadow:0px 1px 0px rgba(255,255,255,.4);
+
+    border-top:1px solid #aaff00;
+    border-right:1px solid #669900;
+    border-bottom:1px solid #558000;
+ 
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+ 
+
+    background-image: -webkit-linear-gradient(top, rgb(136, 204, 0), rgb(119, 179, 0));
+    background-image: -moz-linear-gradient(top, rgb(136, 204, 0), rgb(119, 179, 0));
+    background-image: -o-linear-gradient(top, rgb(136, 204, 0), rgb(119, 179, 0));
+    background-image: -ms-linear-gradient(top, rgb(136, 204, 0), rgb(119, 179, 0));
+    background-image: linear-gradient(top, rgb(136, 204, 0), rgb(119, 179, 0));
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#feda71', EndColorStr='#feba47');
+ 
+    background-color: ;
+
+    -webkit-box-shadow:
+        inset 0 1px 0 #faeaba,
+        0 1px 1px rgba(0,0,0,.1);
+    -moz-box-shadow:
+        inset 0 1px 0 #faeaba,
+        0 1px 1px rgba(0,0,0,.1);
+    box-shadow:
+        inset 0 1px 0 #faeaba,
+        0 1px 1px rgba(0,0,0,.1);
+ 
+  */
+   /* z-index:100; */
+}
+
+  
+
+
+.myTagBlock .myTagBackground i,
+.myTagBlock .myTagBackground div {
+	position: absolute;
+	text-align: right;
+	margin-top: 0.5em;	
+	font-size: 10em;
+	opacity: 0.3;
+	z-index:1;
+}
+
+.myTagBody {
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	z-index: 5;
+    padding-bottom: 2em;
+}
+
+.myTagFooter {
+	position: absolute;
+	background-color: blue;
+	bottom: 0em;
+	right: 0em;
+	padding: 0.4em;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: small;
+	opacity: 0.4;
+	text-align: right;
+	z-index: 10;
+	width: 100%;
+	border-radius: 0 0 .7em .7em;
+}
+
+.myTagFooter a {
+	text-decoration: none;
+	color: white;
+}
+
+.myTagFooter:hover{
+	opacity:1;
+}
+
+.extraGlyphPadding {
+  padding:0.417em 0.2em 0.417em .9em;
+}
+
+.tagButtons {
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size:0.75em;
+    font-weight:bold;
+    text-decoration:none;
+
+    margin:0 7px 7px 7px;
+
+}
+
+.myTag {
+    float:left;
+   /* margin:0 0 7px 20px; */
+    margin:0 7px 7px 7px;
+    padding:0.417em 0.417em 0.417em 0.417em;
+
+
+    position:relative;
+    
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size:0.75em;
+    font-weight:bold;
+    text-decoration:none;
+    
+    color:#8d8d8d;
+    text-shadow:0px 1px 0px rgba(255,255,255,.4);
+    
+    
+    
+    border:1px solid #8d8d8d;
+    
+    border-radius: 0.5em;
+    -webkit-border-radius:0.5em;
+    -moz-border-radius:0.5em;
+    
+    background-color: rgba(238, 238, 238, 0.8);
+    z-index:100;
+}
+
+.myTag:hover {
+    cursor:pointer;
+
+    background-color: rgba(227, 227, 227, 0.8);
+
+    -webkit-box-shadow:
+        inset 0 1px 0 #c7c7c7,
+        0 1px 1px rgba(0,0,0,.1);
+    -moz-box-shadow:
+        inset 0 1px 0 #c7c7c7,
+        0 1px 1px rgba(0,0,0,.1);
+    box-shadow:
+        inset 0 0px 5px #c7c7c7;
+}
+
+.checkbox .btn,
+.checkbox-inline .btn {
+	padding-left: 1em;
+	min-width: 5em;
+}
+
+.checkbox-inline {
+	margin-left: -0.5em;
+}
+
+.checkbox label,
+.checkbox-inline label {
+	text-align: left;
+}
+
+.myTitle { 
+	color:#15e502;
+  	text-shadow: 2px 2px 3px rgba(0,0,0,.6); 
+  	width: 300px;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    
+
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    /*margin-right:-4px;
+	 float:none;   */
+}
+
+.rotate {
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);	
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+
+.videoWrapper {
+	position: relative;
+    text-align:center;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+    max-width: 100%;
+    margin: 0 auto;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
